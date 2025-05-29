@@ -1,4 +1,4 @@
-To run the project locally, navigate to the "dynamic-multi-step-form-react directory" and follow these steps:
+To run the project locally, navigate to the "feature/preassessment/multi-step-form-react" branch and follow these steps:
 
 npm install
 
