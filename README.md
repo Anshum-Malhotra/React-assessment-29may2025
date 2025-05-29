@@ -1,3 +1,10 @@
+To run the project locally, navigate to the "dynamic-multi-step-form-react directory" and follow these steps:
+
+npm install
+npm run dev
+
+This will install all dependencies and start the development server.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
