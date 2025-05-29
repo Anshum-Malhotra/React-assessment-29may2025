@@ -1,0 +1,171 @@
+.app-card,
+.app-inner-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-title,
+.step1-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+}
+.app-container {
+  min-height: 100vh;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(to bottom, #bfdbfe, #fff, #f3f4f6);
+}
+.app-inner-wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+.app-card {
+  max-width: 768px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+.btn-primary,
+.step1-button {
+  background-color: #2563eb;
+}
+.step1-button,
+.step1-input {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.app-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.step-content {
+  margin-top: 1.5rem;
+}
+.step1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.step1-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+}
+.btn-base,
+.label-base,
+.review-box > div > span {
+  font-weight: 600;
+}
+.step1-input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  outline: 0;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.step1-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+.step1-input.error {
+  border-color: #ef4444;
+}
+.step1-error {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #dc2626;
+}
+.step1-button {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+.step1-button:hover {
+  background-color: #1e40af;
+}
+.step1-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.7);
+}
+.input-base {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  box-shadow: none;
+  outline: 0;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.input-base:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+.input-error {
+  border-color: #dc2626;
+}
+.label-base {
+  display: block;
+  margin-bottom: 4px;
+  color: #374151;
+  font-size: 14px;
+}
+.error-text {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #dc2626;
+}
+.btn-base {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+.btn-secondary {
+  background-color: #6b7280;
+}
+.btn-secondary:hover {
+  background-color: #4b5563;
+}
+.btn-submit {
+  background-color: #16a34a;
+}
+.btn-submit:hover {
+  background-color: #15803d;
+}
+.review-box {
+  border: 1.5px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #374151;
+  font-size: 14px;
+}
+.review-box > div {
+  margin-bottom: 8px;
+}
