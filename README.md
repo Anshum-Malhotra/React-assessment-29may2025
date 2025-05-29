@@ -1,6 +1,7 @@
 To run the project locally, navigate to the "dynamic-multi-step-form-react directory" and follow these steps:
 
 npm install
+
 npm run dev
 
 This will install all dependencies and start the development server.
